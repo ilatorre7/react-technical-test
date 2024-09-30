@@ -1,0 +1,409 @@
+{
+  "items": [{
+      "id": 1,
+      "title": "Jordan 1 Low OG",
+      "image": "https://nikearprod.vtexassets.com/arquivos/ids/880101-800-800?width=800&height=800&aspect=true",
+      "description": "Comienza el Año del Dragón con estilo. Este elegante AJ1 tiene superposiciones escamosas en verde petróleo inspiradas en la única criatura mitológica del zodíaco chino.",
+      "detail": {
+        "price": "299999",
+        "year": 2023,
+        "brand": "Jordan",
+        "colorway": "Verde petróleo/Metallic Gold"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Jordan 1 Mid SE",
+      "image": "https://nikearprod.vtexassets.com/arquivos/ids/811855-1200-1200?width=1200&height=1200&aspect=true",
+      "description": "Una versión moderna de un clásico, el Jordan 1 Mid SE cuenta con materiales premium y detalles únicos.",
+      "detail": {
+        "price": "279999",
+        "year": 2022,
+        "brand": "Jordan",
+        "colorway": "Blanco/Negro/Rojo"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Nike Air Max 90",
+      "image": "https://nikearprod.vtexassets.com/arquivos/ids/809313-800-800?width=800&height=800&aspect=true",
+      "description": "El clásico Nike Air Max 90 regresa con colores vibrantes y amortiguación Air para comodidad.",
+      "detail": {
+        "price": "249999",
+        "year": 2021,
+        "brand": "Nike",
+        "colorway": "Gris/Negro/Rojo"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Adidas Ultraboost 21",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/429a510e09fe4039ba33ac770135d8be_9366/Zapatillas_Ultraboost_21_Blanco_FY0377_01_standard.jpg",
+      "description": "Con tecnología de amortiguación Boost, estas zapatillas de running proporcionan un retorno de energía increíble.",
+      "detail": {
+        "price": "319999",
+        "year": 2021,
+        "brand": "Adidas",
+        "colorway": "Blanco/Negro/Neón"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Puma RS-X³ Puzzle",
+      "image": "https://i.ebayimg.com/images/g/pwsAAOSwVgFfD2at/s-l500.jpg",
+      "description": "Las Puma RS-X³ Puzzle llevan el estilo retro a un nuevo nivel con su diseño inspirado en los videojuegos.",
+      "detail": {
+        "price": "199999",
+        "year": 2020,
+        "brand": "Puma",
+        "colorway": "Blanco/Azul/Amarillo"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Reebok Classic Leather",
+      "image": "https://reebokarg.vtexassets.com/arquivos/ids/223222/Imagen-1.jpg?v=638484982398400000",
+      "description": "Las Reebok Classic Leather son un ícono del estilo urbano con construcción en cuero suave.",
+      "detail": {
+        "price": "179999",
+        "year": 1983,
+        "brand": "Reebok",
+        "colorway": "Blanco/Gris"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Converse Chuck Taylor All Star",
+      "image": "https://www.opensports.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/1/5/157197C_0.jpg",
+      "description": "Las clásicas Chuck Taylor siguen siendo un referente del estilo casual con su diseño de lona y suela de goma.",
+      "detail": {
+        "price": "159999",
+        "year": 1917,
+        "brand": "Converse",
+        "colorway": "Negro/Blanco"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Vans Old Skool",
+      "image": "https://acdn.mitiendanube.com/stores/001/245/791/products/a8094306-6e89-4545-a44f-869d3b03dffe-e2b1d26ed4fffc84db17245245959415-1024-1024.jpg",
+      "description": "El estilo atemporal de las Vans Old Skool sigue siendo una elección perfecta para los amantes del skate.",
+      "detail": {
+        "price": "149999",
+        "year": 1977,
+        "brand": "Vans",
+        "colorway": "Negro/Blanco"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Fila Disruptor II",
+      "image": "https://www.tripstore.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/5/X/5XM01799-020_0_8.jpg",
+      "description": "El diseño robusto y atrevido del Fila Disruptor II lo convierte en un favorito de las zapatillas chunky.",
+      "detail": {
+        "price": "229999",
+        "year": 2018,
+        "brand": "Fila",
+        "colorway": "Blanco"
+      }
+    },
+    {
+      "id": 10,
+      "title": "New Balance 574",
+      "image": "https://www.newbalance.com.ar/on/demandware.static/-/Sites-siteCatalog_NBEU/default/dw640f58b2/new_images/N1T000085/N1T000085-1.jpeg",
+      "description": "El New Balance 574 es un clásico de la marca que ofrece comodidad y durabilidad en un diseño atemporal.",
+      "detail": {
+        "price": "199999",
+        "year": 1988,
+        "brand": "New Balance",
+        "colorway": "Gris/Blanco"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Nike Dunk Low",
+      "image": "https://acdn.mitiendanube.com/stores/986/786/products/ee8f32dc-5696-4804-aead-ba68ef67169b-23026831643808a6cb16622510462824-640-0.jpeg",
+      "description": "Las Nike Dunk Low son una combinación de diseño clásico y tecnología moderna, ideales para baloncesto y estilo callejero.",
+      "detail": {
+        "price": "239999",
+        "year": 2021,
+        "brand": "Nike",
+        "colorway": "Rojo/Blanco"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Asics Gel-Kayano 27",
+      "image": "https://actitudsports.com.ar/wp-content/uploads/2022/03/kayano-1.jpg",
+      "description": "El Asics Gel-Kayano 27 ofrece soporte y estabilidad con tecnología GEL para corredores exigentes.",
+      "detail": {
+        "price": "299999",
+        "year": 2020,
+        "brand": "Asics",
+        "colorway": "Negro/Gris"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Saucony Jazz Original",
+      "image": "https://www.tripstore.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/s/-/s-2044-1_0.jpg",
+      "description": "El Saucony Jazz Original es perfecto para quienes buscan comodidad y un estilo vintage retro.",
+      "detail": {
+        "price": "179999",
+        "year": 1981,
+        "brand": "Saucony",
+        "colorway": "Azul/Blanco"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Under Armour HOVR Phantom",
+      "image": "https://www.underarmour.com.ar/on/demandware.static/-/Sites-underarmour_staging/default/dwc142cad0/new_images/3025922/3025922-1.jpeg",
+      "description": "La tecnología HOVR de Under Armour ofrece una amortiguación avanzada y retorno de energía.",
+      "detail": {
+        "price": "319999",
+        "year": 2021,
+        "brand": "Under Armour",
+        "colorway": "Negro/Gris"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Mizuno Wave Rider 24",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtUkVKGjcxfhM0OZXqTQAv8KxKsFgLXqXlxg&s",
+      "description": "El Mizuno Wave Rider 24 es conocido por su gran estabilidad y amortiguación, ideal para corredores de largas distancias.",
+      "detail": {
+        "price": "289999",
+        "year": 2020,
+        "brand": "Mizuno",
+        "colorway": "Azul/Blanco"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Nike Zoom Pegasus 38",
+      "image": "https://sportline.vtexassets.com/arquivos/ids/624447/077020CW7358700_1.jpg?v=637892690552000000",
+      "description": "El Nike Zoom Pegasus 38 proporciona reactividad y comodidad, ideal para entrenamientos de velocidad.",
+      "detail": {
+        "price": "279999",
+        "year": 2021,
+        "brand": "Nike",
+        "colorway": "Blanco/Negro"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Adidas NMD R1",
+      "image": "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/ipjtrtczr0z62scroimc1130421k/77e513bcd3762f47919c96f85e400038a39acdbb0d268f51c1fd98fe5327bd96",
+      "description": "La silueta futurista y comodidad del Adidas NMD R1 la hacen favorita en el streetwear.",
+      "detail": {
+        "price": "259999",
+        "year": 2015,
+        "brand": "Adidas",
+        "colorway": "Negro/Blanco"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Puma Future Rider",
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388973/88/sv01/fnd/ARG/fmt/png",
+      "description": "Con un diseño retro inspirado en los años 80, las Puma Future Rider son ligeras y cómodas.",
+      "detail": {
+        "price": "179999",
+        "year": 2020,
+        "brand": "Puma",
+        "colorway": "Blanco/Rojo/Azul"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Reebok Zig Kinetica II",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4e4WWJlqkL6lwa_zPbVXTxsQhkdgeOZ4jSQ&s",
+      "description": "El innovador diseño del Reebok Zig Kinetica II ofrece una suela con forma de zigzag para una máxima amortiguación.",
+      "detail": {
+        "price": "259999",
+        "year": 2021,
+        "brand": "Reebok",
+        "colorway": "Negro/Blanco"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Nike Blazer Mid '77 Vintage",
+      "image": "https://nikearprod.vtexassets.com/arquivos/ids/380126/BQ6806_100_A_PREM.jpg?v=638138944992830000",
+      "description": "Con un estilo clásico y materiales de alta calidad, el Nike Blazer Mid '77 Vintage es un regreso a las raíces del diseño original.",
+      "detail": {
+        "price": "219999",
+        "year": 1977,
+        "brand": "Nike",
+        "colorway": "Blanco/Negro"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Adidas Superstar",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Zapatillas_Superstar_Blanco_EG4958_01_standard.jpg",
+      "description": "El icónico Adidas Superstar sigue siendo un básico para los amantes del estilo urbano.",
+      "detail": {
+        "price": "209999",
+        "year": 1969,
+        "brand": "Adidas",
+        "colorway": "Blanco/Negro"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Vans SK8-Hi",
+      "image": "https://acdn.mitiendanube.com/stores/001/633/637/products/vn000d5ib8c_01-21f09a6d2aa73e7f8d17011937220168-1024-1024.png",
+      "description": "Las Vans SK8-Hi ofrecen soporte adicional con su diseño de caña alta, ideales para skaters.",
+      "detail": {
+        "price": "179999",
+        "year": 1978,
+        "brand": "Vans",
+        "colorway": "Negro/Blanco"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Nike Air Force 1",
+      "image": "https://nikearprod.vtexassets.com/arquivos/ids/155414/CW2288_111_A_PREM-hei-3144-wid-3144-fmt.jpg?v=638086277575670000",
+      "description": "Las Nike Air Force 1 son una leyenda dentro del mundo del calzado.",
+      "detail": {
+        "price": "249999",
+        "year": 1982,
+        "brand": "Nike",
+        "colorway": "Blanco"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Adidas ZX 2K Boost",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2c43c4cdaf59417b99e4ad2100c3f874_9366/Zapatillas_ZX_2K_Boost_2.0_Negro_GZ7740_01_standard.jpg",
+      "description": "La tecnología Boost del Adidas ZX 2K Boost ofrece una amortiguación suave y reactiva.",
+      "detail": {
+        "price": "299999",
+        "year": 2020,
+        "brand": "Adidas",
+        "colorway": "Negro/Blanco"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Jordan 4 Retro",
+      "image": "https://nikearprod.vtexassets.com/arquivos/ids/497660/AQ9129_500_A_PREM.jpg?v=638151106901230000",
+      "description": "Las Jordan 4 Retro son un clásico que nunca pasa de moda.",
+      "detail": {
+        "price": "349999",
+        "year": 1989,
+        "brand": "Jordan",
+        "colorway": "Gris/Negro/Rojo"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Nike React Infinity Run",
+      "image": "https://redsport.vtexassets.com/arquivos/ids/1153972/ZAPATILLAS-NIKE-REACT-INFINITY-RUN-FK-3.jpg?v=638272175430670000",
+      "description": "Las Nike React Infinity Run están diseñadas para proporcionar máxima comodidad.",
+      "detail": {
+        "price": "299999",
+        "year": 2020,
+        "brand": "Nike",
+        "colorway": "Blanco/Negro"
+      }
+    },
+    {
+      "id": 27,
+      "title": "New Balance Fresh Foam 1080v11",
+      "image": "https://www.sumitate.com.ar/img/articulos/2021/05/zapatillas_de_running_new_balance_fresh_foam_1080v11_hombre_imagen3.jpg",
+      "description": "Con tecnología Fresh Foam, el New Balance 1080v11 es perfecto para corredores.",
+      "detail": {
+        "price": "279999",
+        "year": 2021,
+        "brand": "New Balance",
+        "colorway": "Gris/Azul"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Puma Suede Classic",
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/01/sv01/fnd/ARG/fmt/png",
+      "description": "Las Puma Suede Classic son un símbolo de la cultura urbana.",
+      "detail": {
+        "price": "149999",
+        "year": 1968,
+        "brand": "Puma",
+        "colorway": "Negro/Blanco"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Asics Gel-Quantum 360",
+      "image": "https://celadasa.vtexassets.com/arquivos/ids/237062/1201A659-101-1.jpg?v=638277066054900000",
+      "description": "El Asics Gel-Quantum 360 combina tecnología avanzada de amortiguación GEL.",
+      "detail": {
+        "price": "319999",
+        "year": 2015,
+        "brand": "Asics",
+        "colorway": "Negro/Gris"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Adidas Stan Smith",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/68ae7ea7849b43eca70aac1e00f5146d_9366/Zapatillas_Stan_Smith_Blanco_FX5502_01_standard.jpg",
+      "description": "El Adidas Stan Smith es un ícono del estilo minimalista.",
+      "detail": {
+        "price": "189999",
+        "year": 1971,
+        "brand": "Adidas",
+        "colorway": "Blanco/Verde"
+      }
+    }
+  ],
+  "brands": [{
+      "label": "Jordan",
+      "value": "Jordan"
+    },
+    {
+      "label": "Nike",
+      "value": "Nike"
+    },
+    {
+      "label": "Adidas",
+      "value": "Adidas"
+    },
+    {
+      "label": "Puma",
+      "value": "Puma"
+    },
+    {
+      "label": "Reebok",
+      "value": "Reebok"
+    },
+    {
+      "label": "Converse",
+      "value": "Converse"
+    },
+    {
+      "label": "Vans",
+      "value": "Vans"
+    },
+    {
+      "label": "Fila",
+      "value": "Fila"
+    },
+    {
+      "label": "New Balance",
+      "value": "New Balance"
+    },
+    {
+      "label": "Mizuno",
+      "value": "Mizuno"
+    },
+    {
+      "label": "Asics",
+      "value": "Asics"
+    }
+  ]
+
+}

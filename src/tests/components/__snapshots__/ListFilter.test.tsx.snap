@@ -1,0 +1,78 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ItemList /> > Should render a list of cards with the correct values 1`] = `
+<div>
+  <aside
+    class="aside"
+  >
+    <h3>
+      Filtrar por:
+    </h3>
+    <select
+      class="card-filter"
+      name="filter"
+    >
+      <option
+        value=""
+      >
+        Selecciona una marca para filtrar
+      </option>
+      <option
+        value="Jordan"
+      >
+        Jordan
+      </option>
+      <option
+        value="Nike"
+      >
+        Nike
+      </option>
+      <option
+        value="Adidas"
+      >
+        Adidas
+      </option>
+      <option
+        value="Puma"
+      >
+        Puma
+      </option>
+      <option
+        value="Reebok"
+      >
+        Reebok
+      </option>
+      <option
+        value="Converse"
+      >
+        Converse
+      </option>
+      <option
+        value="Vans"
+      >
+        Vans
+      </option>
+      <option
+        value="Fila"
+      >
+        Fila
+      </option>
+      <option
+        value="New Balance"
+      >
+        New Balance
+      </option>
+      <option
+        value="Mizuno"
+      >
+        Mizuno
+      </option>
+      <option
+        value="Asics"
+      >
+        Asics
+      </option>
+    </select>
+  </aside>
+</div>
+`;

@@ -1,0 +1,48 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ItemCard /> > Should render a card with the correct values 1`] = `
+<div>
+  <article
+    class="card-container"
+  >
+    <div
+      class="card-content"
+    >
+      <img
+        alt="Jordan 1 Low OG"
+        class="card-image"
+        src="https://nikearprod.vtexassets.com/arquivos/ids/880101-800-800?width=800&height=800&aspect=true"
+      />
+      <div
+        class="card-info"
+      >
+        <header
+          class="card-header"
+        >
+          <h3
+            class="card-title"
+          >
+            Jordan 1 Low OG
+          </h3>
+          <h4>
+            2023
+          </h4>
+        </header>
+        <p>
+          Comienza el Año del Dragón con estilo. Este elegante AJ1 tiene superposiciones escamosas en verde petróleo inspiradas en la única criatura mitológica del zodíaco chino.
+        </p>
+        <h4
+          class="card-price"
+        >
+          $299.999
+        </h4>
+        <button
+          class="button-container"
+        >
+          Detalles
+        </button>
+      </div>
+    </div>
+  </article>
+</div>
+`;
