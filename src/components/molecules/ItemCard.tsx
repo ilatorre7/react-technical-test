@@ -11,7 +11,7 @@ export const ItemCard = ({ title, description, image, detail } : IItem) => {
         <div className='card-info'>
           <header className='card-header'>
             <h3 className='card-title'>{title}</h3>
-            <h4>{detail.year}</h4>
+            <h5>{detail.year}</h5>
           </header>
           <p>{description}</p>
           <h4 className='card-price'>{formatPrice(detail.price)}</h4>
