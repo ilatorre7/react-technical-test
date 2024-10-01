@@ -3,7 +3,11 @@ import { formatPrice } from '../../utils'
 import { IItem } from '../types'
 import { Button } from '../atoms/Button'
 
-export const ItemCard = ({ title, description, image, detail } : IItem) => {
+export const ItemCard = ({ id, title, description, image, detail, onClick } : IItem & { onClick: ({ id }: { id: number }) => void } ) => {
+  const handleClick = () => {
+    onClick({ id })
+  }
+
   return (
     <article className='card-container'>
       <div className='card-content'>
@@ -13,9 +17,9 @@ export const ItemCard = ({ title, description, image, detail } : IItem) => {
             <h3 className='card-title'>{title}</h3>
             <h5>{detail.year}</h5>
           </header>
-          <p>{description}</p>
+          <p className='card-description'>{description}</p>
           <h4 className='card-price'>{formatPrice(detail.price)}</h4>
-          <Button label='Detalles' />
+          <Button label='Detalles' onClick={handleClick} />
         </div>
       </div>
     </article>
