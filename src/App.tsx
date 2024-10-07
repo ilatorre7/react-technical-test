@@ -6,11 +6,11 @@ import { useGetItems, useGetBrands, useScrollEnd } from './hooks'
 import { useModal } from './hooks/useModal';
 
 function App() {
-  const { items, trigger, loading, filterTrigger } = useGetItems();
+  const { items, trigger, loading, filterTrigger, hasMore } = useGetItems();
   const { brands } = useGetBrands()
   const { currentItem, setCurrentId, isOpen, setOpen } = useModal();
 
-  useScrollEnd({ isLoading: loading, onScrollEnd: trigger });
+  const { lastPostElementRef } = useScrollEnd({ isLoading: loading, hasMore: hasMore, onScrollEnd: trigger });
 
   const handleItemClick = ({ id }:{ id: number }) => {
     setCurrentId(id)
@@ -24,7 +24,7 @@ function App() {
       </header>
       <main>
         <ListFilter options={brands} onFilter={filterTrigger} />
-        <ItemList list={items} isLoading={loading} onItemClick={handleItemClick} />
+        <ItemList list={items} isLoading={loading} onItemClick={handleItemClick} lastPostElementRef={lastPostElementRef} />
       </main>
       <footer className='footer'>
         <p className='footer-text'>2024 Todos los derechos reservados</p>

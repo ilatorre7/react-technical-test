@@ -16,6 +16,7 @@ export const useGetItems = () => {
   const trigger = () => {
     memo.page = memo.page + 1
     setCount((count) => count + 1)
+    setLoading(true)
   }
 
   const filterTrigger = (newBrand: string) => {
@@ -24,15 +25,16 @@ export const useGetItems = () => {
     memo.hasMore = true
     setItems([])
     setCount((count) => count + 1)
+    setLoading(true)
   }
 
   useEffect(() => {
     const fetchItems = async () => {
-      setLoading(true)
       const data = await fetch(`${API}items?_page=${memo.page}&_per_page=${memo.quantity}${memo.brand ? `&detail.brand=${memo.brand}` : '' }`)
       const json = await data.json()
       if(!json.next) memo.hasMore = false
       setItems((items) => [...items, ...json.data])
+      setLoading(false)
     }
     if(memo.hasMore){
       try {
@@ -40,11 +42,11 @@ export const useGetItems = () => {
       }
       catch (e) {
         console.log(e)
-      } finally {
-        setLoading(false)
       }
+    } else {
+      setLoading(false)
     }
   }, [count, memo])
 
-  return { items, trigger, loading, filterTrigger }
+  return { items, trigger, loading, filterTrigger, hasMore: memo.hasMore }
 }

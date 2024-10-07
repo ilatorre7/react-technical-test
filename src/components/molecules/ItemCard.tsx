@@ -3,13 +3,14 @@ import { formatPrice } from '../../utils'
 import { IItem } from '../types'
 import { Button } from '../atoms/Button'
 
-export const ItemCard = ({ id, title, description, image, detail, onClick } : IItem & { onClick: ({ id }: { id: number }) => void } ) => {
+
+export const ItemCard = ({ id, title, description, image, detail, onClick } : IItem & { onClick: ({ id }: { id: number }) => void, itemRef: ((node: HTMLElement) => void) | null } ) => {
   const handleClick = () => {
     onClick({ id })
   }
 
   return (
-    <article className='card-container'>
+    <article className='card-container' ref={itemRef}>
       <div className='card-content'>
         <img className='card-image' src={image} alt={title} />
         <div className='card-info'>
