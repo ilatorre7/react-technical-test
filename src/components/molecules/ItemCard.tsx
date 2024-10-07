@@ -3,9 +3,9 @@ import { formatPrice } from '../../utils'
 import { IItem } from '../types'
 import { Button } from '../atoms/Button'
 
-export const ItemCard = ({ title, description, image, detail } : IItem) => {
+export const ItemCard = ({ title, description, image, detail, itemRef } : IItem & { itemRef: ((node: HTMLElement) => void) | null }) => {
   return (
-    <article className='card-container'>
+    <article className='card-container' ref={itemRef}>
       <div className='card-content'>
         <img className='card-image' src={image} alt={title} />
         <div className='card-info'>

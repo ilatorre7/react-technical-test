@@ -5,10 +5,10 @@ import { useGetItems, useGetBrands, useScrollEnd } from './hooks'
 
 
 function App() {
-  const { items, trigger, loading, filterTrigger } = useGetItems();
+  const { items, trigger, loading, filterTrigger, hasMore } = useGetItems();
   const { brands } = useGetBrands()
 
-  useScrollEnd({ isLoading: loading, onScrollEnd: trigger });
+  const { lastPostElementRef } = useScrollEnd({ isLoading: loading, hasMore: hasMore, onScrollEnd: trigger });
 
   return (
     <>
@@ -18,7 +18,7 @@ function App() {
       </header>
       <main>
         <ListFilter options={brands} onFilter={filterTrigger} />
-        <ItemList list={items} isLoading={loading} />
+        <ItemList list={items} isLoading={loading} lastPostElementRef={lastPostElementRef} />
       </main>
       <footer className='footer'>
         <p className='footer-text'>2024 Todos los derechos reservados</p>
