@@ -1,14 +1,20 @@
 import './App.css'
 import logo from './assets/logo.svg'
+import { Modal } from './components/molecules/Modal';
 import { ItemList, ListFilter } from './components/organisms'
 import { useGetItems, useGetBrands, useScrollEnd } from './hooks'
-
+import { useModal } from './hooks/useModal';
 
 function App() {
   const { items, trigger, loading, filterTrigger, hasMore } = useGetItems();
   const { brands } = useGetBrands()
+  const { currentItem, setCurrentId, isOpen, setOpen } = useModal();
 
   const { lastPostElementRef } = useScrollEnd({ isLoading: loading, hasMore: hasMore, onScrollEnd: trigger });
+
+  const handleItemClick = ({ id }:{ id: number }) => {
+    setCurrentId(id)
+  }
 
   return (
     <>
@@ -18,11 +24,12 @@ function App() {
       </header>
       <main>
         <ListFilter options={brands} onFilter={filterTrigger} />
-        <ItemList list={items} isLoading={loading} lastPostElementRef={lastPostElementRef} />
+        <ItemList list={items} isLoading={loading} onItemClick={handleItemClick} lastPostElementRef={lastPostElementRef} />
       </main>
       <footer className='footer'>
         <p className='footer-text'>2024 Todos los derechos reservados</p>
       </footer>
+      {isOpen && <Modal setOpen={setOpen} item={currentItem} />}
     </>
   )
 }

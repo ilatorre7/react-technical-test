@@ -5,7 +5,7 @@ import { Button } from '../../components/atoms/Button';
 describe('<Button />', () => {
   it("Should render a button with the correct label", () => {
     const label = "Detalles";
-    render(<Button label={label} />);
+    render(<Button label={label} onClick={() => {}} />);
     expect(screen.getByRole('button')).toBeInTheDocument();
   })
 })

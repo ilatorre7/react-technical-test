@@ -1,6 +1,6 @@
 .card-container {
   overflow: hidden;
-  border: 1px solid #888;
+  border: 1px solid #ccc;
   border-radius: 16px;
   background-color: #fff;
 }
@@ -39,6 +39,10 @@
 .card-price {
   font-size: 32px;
   font-weight: 700;
+}
+
+.card-description {
+  color: var(--main-text-color);
 }
 
 @media (max-width: 640px) {
