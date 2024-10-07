@@ -4,7 +4,7 @@ import { IItem } from '../types'
 import { Button } from '../atoms/Button'
 
 
-export const ItemCard = ({ id, title, description, image, detail, onClick } : IItem & { onClick: ({ id }: { id: number }) => void, itemRef: ((node: HTMLElement) => void) | null } ) => {
+export const ItemCard = ({ id, title, description, image, detail, itemRef, onClick } : IItem & { onClick: ({ id }: { id: number }) => void, itemRef: ((node: HTMLElement) => void) | null } ) => {
   const handleClick = () => {
     onClick({ id })
   }
